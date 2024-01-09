@@ -5,4 +5,3 @@ commonAnnotations:
 resources:
 - 01_noobaa.yaml
 - 02_noobaa-pv-backing-store.yaml
-- 03_noobaa-obc.yaml
