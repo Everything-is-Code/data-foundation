@@ -11,8 +11,6 @@ spec:
       - matchExpressions:
           - key: cluster.ocs.openshift.io/openshift-storage
             operator: In
-            values:
-              - 'true'
   tolerations:
     - effect: NoSchedule
       key: cluster.ocs.openshift.io/openshift-storage
