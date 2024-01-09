@@ -10,3 +10,4 @@ resources:
 - 05_auto-discover-devices.yaml
 - 06_local-volume-fs.yaml
 - 07_local-volume-block.yaml
+- 08_storage-system.yaml
