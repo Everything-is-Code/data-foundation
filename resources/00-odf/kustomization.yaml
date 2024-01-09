@@ -6,8 +6,4 @@ resources:
 - 01_openshift-storage-namespace.yaml
 - 02_openshift-storage-og.yaml
 - 03_storage-operator-subscription.yaml
-- 04_local-storage-operator.yaml
-- 05_auto-discover-devices.yaml
-- 06_local-volume-fs.yaml
-- 07_local-volume-block.yaml
-- 08_storage-system.yaml
+- 04_storage-system.yaml
