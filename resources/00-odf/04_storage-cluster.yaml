@@ -1,0 +1,43 @@
+---
+apiVersion: ocs.openshift.io/v1
+kind: StorageCluster
+metadata:
+  annotations:
+    argocd.argoproj.io/sync-wave: "3"
+  name: ocs-storagecluster
+  namespace: openshift-storage
+spec:
+  arbiter: {}
+  encryption:
+    kms: {}
+  externalStorage: {}
+  flexibleScaling: true
+  managedResources:
+    cephBlockPools: {}
+    cephConfig: {}
+    cephDashboard: {}
+    cephFilesystems: {}
+    cephObjectStoreUsers: {}
+    cephObjectStores: {}
+  mirroring: {}
+  nodeTopologies: {}
+  storageDeviceSets:
+    - config: {}
+      count: 1
+      dataPVCTemplate:
+        metadata: {}
+        spec:
+          accessModes:
+            - ReadWriteOnce
+          resources:
+            requests:
+              storage: 0.5Ti
+          storageClassName: thin-ocs
+          volumeMode: Block
+        status: {}
+      name: ocs-deviceset-thin
+      placement: {}
+      portable: true
+      preparePlacement: {}
+      replica: 3
+      resources: {}

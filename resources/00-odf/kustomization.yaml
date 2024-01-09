@@ -6,4 +6,5 @@ resources:
 - 01_openshift-storage-namespace.yaml
 - 02_openshift-storage-og.yaml
 - 03_storage-operator-subscription.yaml
-- 04_storage-system.yaml
+- 04_storage-cluster.yaml
+- 05_storage-system.yaml
