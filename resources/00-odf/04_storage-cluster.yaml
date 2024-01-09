@@ -32,7 +32,7 @@ spec:
           resources:
             requests:
               storage: 0.5Ti
-          storageClassName: thin-ocs
+          storageClassName: gp3-csi
           volumeMode: Block
         status: {}
       name: ocs-deviceset-thin
