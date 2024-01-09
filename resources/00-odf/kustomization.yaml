@@ -3,6 +3,6 @@ kind: Kustomization
 commonAnnotations:
     argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 resources:
-- 01_openshift-local-storage-namespace.yaml
-- 02_openshift-local-storage-og.yaml
-- 03_local-storage-operator-subscription.yaml
+- 01_openshift-storage-namespace.yaml
+- 02_openshift-storage-og.yaml
+- 03_storage-operator-subscription.yaml
