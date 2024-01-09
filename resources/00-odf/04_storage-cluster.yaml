@@ -35,7 +35,7 @@ spec:
           storageClassName: gp3-csi
           volumeMode: Block
         status: {}
-      name: ocs-deviceset-thin
+      name: ocs-deviceset-gp3-csi
       placement: {}
       portable: true
       preparePlacement: {}
