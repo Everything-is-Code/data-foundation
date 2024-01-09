@@ -3,4 +3,5 @@ kind: Kustomization
 commonAnnotations:
   argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 resources:
-- 00-odf-app.yaml
+- 00-odf-project.yaml
+- 01-odf-app.yaml
